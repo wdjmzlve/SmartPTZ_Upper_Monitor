@@ -1,0 +1,51 @@
+# Build directories
+build/
+build-*/
+debug/
+release/
+
+# qmake / Qt artifacts
+Makefile
+Makefile.*
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.app
+*.out
+*.prl
+*.pri.user
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# IDE / editor files
+.idea/
+.vscode/
+*.user
+*.suo
+*.ncb
+*.opensdf
+*.sdf
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# Model and runtime assets
+*.rknn
+*.onnx
+*.bin
+
+# Local notes
+agent.md
